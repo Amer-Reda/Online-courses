@@ -2,19 +2,164 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  
 }
 :root{
   --Primary-Color : #FF9500;
+  --main-color : #262626;
+  --main-color : #F1F1F3;
+}
+body{
+  background-color: var(--main-color);
+}
+header{
+  margin: 20px 30px;
 }
 .title{
   background-color: var(--Primary-Color);
   color: white;
+  font-size: 18px;
   height: 55px;
-  margin: 20px 30px;
+
   display: flex;
   align-items: center;   /* توسيط عمودي */
   justify-content: center; /* توسيط أفقي */
   text-align: center;
   border-radius: 8px;
+}
+.title a{
+  color: white;
+  text-decoration: none;
+}
+.title img{
+  padding: 0 20px;
+  text-align: center;
+  align-items: center;
+}
+nav{
+  margin: 20px 130px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo{
+  background-color: var(--Primary-Color);
+  padding: 10px;
+  margin-right: 50px;
+  border-radius: 8px; margin:0 50px 0 0;
+}
+nav .navigation{
+  display: flex;
+}
+nav .login{
+  display: flex;
+}
+nav ul li{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+  margin-right: 25px;
+}
+ul li a{
+  color: #262626;
+  text-decoration: none;
+}
+.log{
+  padding: 14px 34px;
+  border-radius: 8px;
+  background-color: var(--Primary-Color);
+}
+header hr {
+  background-color: #f4f4f4; 
+  height: 0.1px;               
+  border: none;
+}
+
+.hero-section {
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  position: relative;
+  max-width: 965px;
+  margin: 0 auto;
+}
+.icon1{
+  position: absolute;
+  left: 48px;
+  top: -11%;
+}
+
+.badge {
+  display: inline-block;
+  background-color:#FCFCFD;
+  padding: 10px 20px;
+  line-height: 150%;
+  border-radius: 11px;
+  font-weight: 600;
+  font-size: 48px;
+  color: #111827;
+}
+
+.badge .highlight {
+  color: #f59e0b; /* Orange color */
+  margin-right: 5px;
+}
+.badge .icon{
+  width: 10px;
+  height: 10px;
+  background-color: #FFF4E5;
+}
+
+.main-heading {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 20px 0 10px;
+  color: #111827;
+}
+
+.subtext {
+  color: #6b7280;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #f59e0b;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #d97706;
+}
+
+.btn-outline {
+  border: 2px solid #d1d5db;
+  color: #111827;
+  background-color: transparent;
+}
+
+.btn-outline:hover {
+  background-color: #f9fafb;
 }
 
