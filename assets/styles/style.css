@@ -1,87 +1,87 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Be Vietnam Pro', sans-serif;
-  
+  font-family: "Be Vietnam Pro", sans-serif;
 }
-:root{
-  --Primary-Color : #FF9500;
-  --main-color : #262626;
-  --main-bg-color : #F1F1F3;
+:root {
+  --Primary-Color: #ff9500;
+  --main-color: #262626;
+  --main-bg-color: #f1f1f3;
 }
-body{
+body {
   background-color: var(--main-bg-color);
 }
-header{
+header {
   margin: 20px 30px;
 }
-.title{
+.title {
   background-color: var(--Primary-Color);
   color: white;
   font-size: 18px;
   height: 55px;
 
   display: flex;
-  align-items: center;   /* توسيط عمودي */
+  align-items: center; /* توسيط عمودي */
   justify-content: center; /* توسيط أفقي */
   text-align: center;
   border-radius: 8px;
 }
-.title a{
+.title a {
   color: white;
   text-decoration: none;
 }
-.title img{
+.title img {
   padding: 0 20px;
   text-align: center;
   align-items: center;
 }
-nav{
+nav {
   margin: 20px 130px;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: space-between;
 }
-nav .logo{
+nav .logo {
   background-color: var(--Primary-Color);
   padding: 10px;
   margin-right: 50px;
-  border-radius: 8px; margin:0 50px 0 0;
+  border-radius: 8px;
+  margin: 0 50px 0 0;
 }
-nav .navigation{
+nav .navigation {
   display: flex;
 }
-nav .login{
+nav .login {
   display: flex;
 }
-nav ul li{
+nav ul li {
   display: flex;
   text-align: center;
   align-items: center;
   list-style: none;
   margin-right: 25px;
 }
-ul li a{
+ul li a {
   color: #262626;
   text-decoration: none;
 }
-.log{
+.log {
   padding: 14px 34px;
   border-radius: 8px;
   background-color: var(--Primary-Color);
 }
 header hr {
-  background-color: #f4f4f4; 
-  height: 0.1px;               
+  background-color: #f4f4f4;
+  height: 0.1px;
   border: none;
 }
 
 .hero-section {
   padding: 60px 20px;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
@@ -89,7 +89,7 @@ header hr {
   max-width: 965px;
   margin: 0 auto;
 }
-.icon1{
+.icon1 {
   position: absolute;
   left: 30px;
   top: -11%;
@@ -97,23 +97,23 @@ header hr {
 
 .badge {
   display: inline-block;
-  background-color:#FCFCFD;
+  background-color: #fcfcfd;
   padding: 10px 20px;
   line-height: 150%;
   border-radius: 11px;
   font-weight: 600;
   font-size: 48px;
-  color: #1A1A1A;
+  color: #1a1a1a;
 }
 
 .badge .highlight {
   color: var(--Primary-Color); /* Orange color */
   margin-right: 5px;
 }
-.badge .icon{
+.badge .icon {
   padding: 8px 16px;
   border-radius: 6px;
-  background-color: #FFF4E5;
+  background-color: #fff4e5;
 }
 
 .main-heading {
@@ -155,54 +155,53 @@ header hr {
 
 .btn-outline {
   color: #111827;
-  background-color: #FCFCFD;
+  background-color: #fcfcfd;
 }
 
 .btn-outline:hover {
   background-color: #f9fafb;
 }
 
-.logo-carousel{
+.logo-carousel {
   display: flex;
   justify-content: center;
-  background-color: #FCFCFD;
+  background-color: #fcfcfd;
   padding: 30px;
   margin: 0 35px;
   border-radius: 12px;
 }
-.logo-carousel .logos{
+.logo-carousel .logos {
   padding: 15px 35px;
-  border-right: 1px solid #e1dcdc83; 
+  border-right: 1px solid #e1dcdc83;
   height: 75%;
-  background-color: #FCFCFD;
+  background-color: #fcfcfd;
 }
-.image{
+.image {
   display: flex;
   justify-content: center;
   margin: 30px;
 }
-.image img{
+.image img {
   width: 1350px;
-
 }
-.Benefits > div{
+.Benefits > div {
   display: flex;
   margin: 35px 35px;
   font-size: 40px;
   color: var(--main-color);
 }
-.Benefits > div .Lorem{
-  color: #59595A;
+.Benefits > div .Lorem {
+  color: #59595a;
   font-size: 18px;
   width: 70%;
 }
-.link-Benefits{
+.link-Benefits {
   width: 200px;
   display: flex;
   align-items: end;
 }
-.Benefits a{
-  background-color: #FCFCFD;
+.Benefits a {
+  background-color: #fcfcfd;
   text-decoration: none;
   color: var(--main-color);
   border-radius: 8px;
@@ -210,26 +209,25 @@ header hr {
   font-size: 16px;
   display: inline-block;
 }
-.Benefits a:hover{
+.Benefits a:hover {
   background-color: #dfdfe0;
 }
 
-.Features{
+.Features {
   display: flex;
   flex-direction: column;
   border-radius: 8px;
   width: 430px;
   height: 350px;
-  background-color: #FCFCFD;
-  
+  background-color: #fcfcfd;
 }
-.Features a{
+.Features a {
   align-self: flex-end;
-  background-color: #FCFCFD;
+  background-color: #fcfcfd;
 }
 
-.Features p{
-  color: #59595A;
+.Features p {
+  color: #59595a;
   font-size: 18px;
   margin: 10px 35px;
   width: 75%;
@@ -240,30 +238,104 @@ header hr {
   height: 50px;
   margin: 40px;
 }
-.Arrow{
+.Arrow {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin: 40px;
-  border: 1px solid #F1F1F3;
+  border: 1px solid #f1f1f3;
 }
-.Features .Arrow img{
+.Features .Arrow img {
   position: absolute;
   top: 8px;
   right: 11px;
 }
-.Features h3{
+.Features h3 {
   font-size: 20px;
   margin: 0px 35px;
 }
 
-.boxses{
+.boxses {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-
+}
+.Our_Courses{
+  display: flex;
+  justify-content: space-between;
+  margin: 35px;
+}
+.Our_Courses h2{
+  font-size: 40px;
+  color: var(--main-color);
+}
+.Lorem {
+  color: #59595a;
+  font-size: 18px;
+  width: 70%;
+}
+.courses-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.courses{
+  display: flex;
+  justify-content: center;
+  margin: 35px 15px;
+  padding: 35px;
+  background-color: #fff;
+  width: 650px;
+  border-radius: 12px;
+  border: 1px solid #F1F1F3;
+}
+.course{
+  width: 600px;
+}
+.course div{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.course img{
+  width: 600px;
+}
+.course div div{
+  display: flex ;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+.info div p{
+  padding: 10px;
+  border: 1px solid #F1F1F3;
+  border-radius: 8px;
+  margin-right: 10px;
 }
 
+.course h3 {
+  color: var(--main-color);
+  margin-bottom: 10px ;
+}
+.course p{
+  color: #4C4C4D;
+}
+.course .by{
+  color: #262626;
+  padding: 10px 0;
+}
+.course a{
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  margin: 25px 0 0 0;
+  width: 100%;
+  background-color: #F7F7F8;
+  color: var(--main-color);
+  text-decoration: none;
+}
