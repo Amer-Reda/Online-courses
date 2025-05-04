@@ -182,7 +182,7 @@ header hr {
   margin: 30px;
 }
 .image img {
-  width: 1350px;
+  width: 100%;
 }
 .Benefits > div {
   display: flex;
@@ -217,7 +217,7 @@ header hr {
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  width: 430px;
+  width: 390px;
   height: 350px;
   background-color: #fcfcfd;
 }
@@ -266,7 +266,7 @@ header hr {
 .Our_Courses{
   display: flex;
   justify-content: space-between;
-  margin: 35px;
+  margin: 35px 35px 50px 35px;
 }
 .Our_Courses h2{
   font-size: 40px;
@@ -285,15 +285,15 @@ header hr {
 .courses{
   display: flex;
   justify-content: center;
-  margin: 35px 15px;
+  margin: 10px 10px;
   padding: 35px;
   background-color: #fff;
-  width: 650px;
+  width: 600px;
   border-radius: 12px;
   border: 1px solid #F1F1F3;
 }
 .course{
-  width: 600px;
+  width: 550px;
 }
 .course div{
   display: flex;
@@ -301,7 +301,7 @@ header hr {
   
 }
 .course img{
-  width: 600px;
+  width: 550px;
 }
 .course div div{
   display: flex ;
@@ -338,4 +338,46 @@ header hr {
   background-color: #F7F7F8;
   color: var(--main-color);
   text-decoration: none;
+}
+.Testimonials{
+  background-color: #ffffff;
+  width: 600px;
+  margin: 10px;
+  border-radius: 12px;
+}
+.Testimonials p {
+  color: #333333;
+  padding: 40px ;
+}
+.clint{
+  color: #4C4C4D;
+}
+.Testimonials .div-clint{
+  border-top: 1px solid #F1F1F3;
+}
+.Testimonials div{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  background-color: #FCFCFD;
+
+
+}
+.Testimonials img{
+  margin: 0 5px 0 0;
+}
+.Testimonials a{
+  color: #262626;
+  text-decoration: none;
+  background-color: #F7F7F8;
+  border: 1px solid #F1F1F3;
+  border-radius: 8px;
+  padding: 13px;
+}
+.testimonials-wrapper{
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content: center;
 }
